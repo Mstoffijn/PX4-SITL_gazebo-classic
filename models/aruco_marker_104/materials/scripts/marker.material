@@ -1,0 +1,15 @@
+material Marker104
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_104.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}
