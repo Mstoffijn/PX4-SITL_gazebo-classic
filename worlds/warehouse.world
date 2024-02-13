@@ -9,9 +9,9 @@
     <include>
       <uri>model://ground_plane</uri>
     </include>
-    <include>
+    <!-- <include>
       <uri>model://asphalt_plane</uri>
-    </include>
+    </include> -->
     <physics name='default_physics' default='0' type='ode'>
       <gravity>0 0 -9.8066</gravity>
       <ode>
@@ -381,7 +381,7 @@
       <uri>model://europallet</uri>
       <pose>2.9 -1.5 0.0635 0 0 1.56921</pose>
     </include>
-
+<!--
 
     <!-- =================================
             Shelves B - 1st level
@@ -413,13 +413,13 @@
       <uri>model://europallet</uri>
       <pose>2.9 -1.5 1.60 0 0 1.56921</pose>
       <static>true</static>
-    </include>
+    </include> -->
 
     <!-- =================================
             Shelves B - 2st level
          ================================= -->
 
-    <!-- PALLET 1 -->
+    <!-- PALLET 1
     <include>
       <name>pallet B-2-1 box</name>
       <uri>model://big_box4</uri>
@@ -445,10 +445,10 @@
       <uri>model://europallet</uri>
       <pose>2.9 -1.5 3.27 0 0 1.56921</pose>
       <static>true</static>
-    </include>
+    </include> -->
 
     <!-- ACCESSORIES -->
-    <include>
+    <!-- <include>
       <name>first_2015_trash_can</name>
       <uri>model://first_2015_trash_can</uri>
       <pose>3.8239 3.403029 0 0 0 0</pose>
@@ -465,7 +465,7 @@
       <name>grey_wall2</name>
       <uri>model://grey_wall</uri>
       <pose>-3.5 9 0 0 0 0</pose>
-    </include>
+    </include> -->
 
 
   </world>
